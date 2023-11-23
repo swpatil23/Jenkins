@@ -7,7 +7,7 @@ stages{
 stage('Clone the playbook repo')
 {
    steps{
-   git branch: 'main', url: ''
+   git branch: 'main', url: 'https://github.com/swpatil23/Jenkins.git'
 
 }
 
